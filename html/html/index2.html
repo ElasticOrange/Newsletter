@@ -36,53 +36,95 @@
                 {
                     font-size:29px;
                     color: #f25c00;
-                    font-family: metral;
                     font-weight: bold;
-                    clear:left;
-                    float:left;
-                    margin-left: 9px;
                     margin-top: 5px;
                 }
                 
                 .demo-photo
                 {
-                    float:left;
-                    display:inline-block;
+                    float:;
+                    clear:left;
+                  
                                 
                 }
                 .demo-description
                 {
                     overflow:hidden;
                     font-size:10px;
-                    float:left;
-                    font-family: metral;
                     color:#000;
-                    width:24%;
+                    width:22%;
                     height:auto;
-                    clear:left;
-                    margin-left: 9px;
                     margin-top: 5px;
                 }
                 .old-price
                 {
-                    font-family: metral;
                     font-size:16px;
-                    margin-left: 9px;
-                    clear:left;
-                    float:left;
                     color:#838383;                  
                     background-image:url("img/old-price.png");
                 }
                 .demo-detalii
                 {
-                    float:left;
-                    clear:left;
-                    margin-left: 9px;
                     margin-top:9px;
+                    margin-bottom:15px;
                 }
                 
+                .four-in-one
+                {
+                    position:relative;                    
+                    display:inline-block;
+                    font-family: metral;
+                    clear:both;
+                    margin-left: 9px;
+                    font-family: metral;
+
+                }
                 
+                .text-banner
+                {
+                    font-family: metral;
+                    font-size:18px;
+                    color:black;
+                    font-weight: bold;
+                    position: relative;
+                    margin-top: 70px;
+                    left: 85px;
+                    width: 90%;
+                    
+                }
                 
+                .price-banner
+                {
+                    
+                    font-weight: bold;
+                    position:relative;
+                    font-size:24px;
+                    font-family: metral;
+                    left: 85px;
+                    background-image:url("img/old-price-banner.png");
+                    
+                    
+                    
+                }
+                
+                .price-banner-new
+                {
+                    display:inline;
+                    position:relative;
+                    font-weight: bold;
+                    font-family: metral;                    
+                    font-size: 41px;
+                    color: #f25c00;
+                    margin-left: 97px;
+                   
+                    
+                }
+                .detalii-banner
+                {
+                    margin-left: 253px;
+                    padding-top: 20px;
+                    margin-bottom:20px;
+                    
+                }
 
             </style>
 		</head>
@@ -141,10 +183,12 @@
                                                 	<td>
                                                         <a href="#">
                                                             <img class="product-image" src="img/img_onerow_prod_generated.jpg">
-                                                            <span style="overflow:hidden; font-size:16px;">Nikon D3100 body + nikon 18-55MM F/3.5-5.6G VR II AF-S DX 18-55MM F/3.5-5.6G VR II AF-S DX </span>
-                                                            <span style="overflow:hidden; font-size:24px; color:#838383; text-decoration:line-through; display: block">2.297 LEI</span>
-                                                            <span style="overflow:hidden; font-size:24px; color:#838383;  display: block">2.097 LEI</span>
-                                                            <span class="buton-cumpara">Cumpara</span>
+                                                            <p class="text-banner" style="">Nikon D3100 body + nikon 18-55MM F/3.5-5.6G VR II AF-S DX 18-55MM F/3.5-5.6G VR II AF-S DX </p>
+                                                            <span class="price-banner" style="overflow:hidden; color:#838383; display:inline">2.297 LEI</span>
+                                                            <span class="price-banner-new" style="overflow:hidden;">1.669 LEI</span>
+                                                            <a href="#">
+                                                                <img src="Img/detalii-banner.png" class="detalii-banner"></span>
+                                                            </a>
                                                         </a>
                                                     </td>
                                                 </tr>
@@ -197,22 +241,41 @@
                                                         <a href="#">
                                                             <img class="demo-photo" src="img/4on-a-row-new-1.png">
                                                         </a>
-                                                        <span class="product-price">1.669 LEI</span>
-                                                        <span class="old-price">2.297 LEI</span>
-                                                        <span class="demo-description">Nikon D3100 body + nikon 18-55MM F/3.5-5.6G VR II AF-S DX 18-55MM F/3.5-5.6G VR</span>
+                                                        <span class="product-price four-in-one">1.669 LEI</span>
+                                                        <span class="old-price four-in-one">2.297 LEI</span>
+                                                        <span class="demo-description four-in-one">Nikon D3100 body + nikon 18-55MM F/3.5-5.6G VR II AF-S DX 18-55MM F/3.5-5.6G VR</span>
                                                         <a href="#">
-                                                            <img class="demo-detalii" src="img/detalii.png">
+                                                            <img class="demo-detalii four-in-one" src="img/detalii.png">
                                                         </a>   
                                                         
+                                                        <a href="#">
+                                                            <img class="demo-photo" src="img/4on-a-row-s-1.png">
+                                                        </a>
+                                                        <span class="product-price four-in-one">1.669 LEI</span>
+                                                        <span class="old-price four-in-one">2.297 LEI</span>
+                                                        <span class="demo-description four-in-one">Nikon D3100 body + nikon 18-55MM F/3.5-5.6G VR II AF-S DX 18-55MM F/3.5-5.6G VR</span>
+                                                        <a href="#">
+                                                            <img class="demo-detalii four-in-one" src="img/detalii.png">
+                                                        </a> 
                                                         
                                                         <a href="#">
-                                                            <img class="demo-photo" src="img/4on-a-row-s.png">
+                                                            <img class="demo-photo" src="img/4on-a-row-new-s-1.png">
                                                         </a>
+                                                        <span class="product-price four-in-one">1.669 LEI</span>
+                                                        <span class="old-price four-in-one">2.297 LEI</span>
+                                                        <span class="demo-description four-in-one">Nikon D3100 body + nikon 18-55MM F/3.5-5.6G VR II AF-S DX 18-55MM F/3.5-5.6G VR</span>
                                                         <a href="#">
-                                                            <img class="" src="img/4on-a-row-new-s.png">
+                                                            <img class="demo-detalii four-in-one" src="img/detalii.png">
                                                         </a>
-                                                            <a href="#">
-                                                            <img class="" src="img/4on-a-row.png">
+                                                
+                                                        <a href="#">
+                                                            <img class="demo-photo" src="img/4on-a-row-1.png">
+                                                        </a>
+                                                        <span class="product-price four-in-one">1.669 LEI</span>
+                                                        <span class="old-price four-in-one">2.297 LEI</span>
+                                                        <span class="demo-description four-in-one">Nikon D3100 body + nikon 18-55MM F/3.5-5.6G VR II AF-S DX 18-55MM F/3.5-5.6G VR</span>
+                                                        <a href="#">
+                                                            <img class="demo-detalii four-in-one" src="img/detalii.png">
                                                         </a>
                                                     </td>
                                                 </tr>
