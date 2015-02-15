@@ -7,17 +7,16 @@
                 
                @font-face 
                 {
-                    font-family: "metral";
+                    font-family: metral;
                     src: url(Metral/Metral-Bold.otf);
-                    src: url(Metral/Metral-Medium.otf);
+                    
                 }
-                
-                
                 
                 p
                 {
-                    font-family: metral;
+                    font-family: Arial ;
                 }
+                
                 .product-image
                 {
                     width: 270px;
@@ -25,7 +24,8 @@
                     margin: 0 auto;
                     border: none;
                 }
-
+                
+                
                 @media (max-width: 500px)
                 {
                     .product-image
@@ -33,6 +33,7 @@
                         display: block;
                         float: none;
                     }
+                    
                 }
                        
                 a
@@ -45,21 +46,15 @@
                     background-color: #5cb3ea;
                     float: right;
                 }
-                .product-price
-                {
-                    font-size:29px;
-                    color: #f25c00;
-                    font-weight: bold;
-                    margin-top: 5px;
-                }
+                
+               
                 
                 .demo-photo
                 {
                     float:;
                     clear:left;
-                  
-                                
                 }
+                
                 .demo-description
                 {
                     overflow:hidden;
@@ -68,13 +63,26 @@
                     width:90-%;
                     height:auto;
                     margin-top: 5px;
-                    margin-right: 1px;
+                    
                 }
+                
+                 .product-price
+                {
+                    position: relative;
+                    font-size:29px;
+                    color: #f25c00;
+                    font-weight: bold;
+                    margin-top: 5px;
+                    margin-left: 0px;
+                }
+                
                 .old-price
                 {
-                    font-size:16px;
+                    font-size:15px;
                     color:#838383;                  
                     background-image:url("img/old-price.png");
+                    margin-left: -12px;
+                    margin-top: 10px;
                 }
                 .demo-detalii
                 {
@@ -86,21 +94,22 @@
                 {
                     position:relative;                    
                     display:inline-block;
-                    font-family: "Metral"; "Lithos-pro";
+                    font-family: "Metral", "Lucida Console", "Arial";
                     clear:both;
-                    margin-left: 9px;
+                    margin-left: 5px;
                 }
+              
                 
                 .text-banner
                 {
-                    font-family: metral;
+                    font-family: "metral" "Arial";
                     font-size:18px;
                     color:black;
                     font-weight: bold;
                     position: relative;
                     margin-top: 70px;
-                    left: 85px;
-                    width: 90%;
+                    left:85px;
+                    width: 80%;
                     
                 }
                 
@@ -108,14 +117,11 @@
                 {
                     display:block;
                     font-weight: bold;
-                    position:relative;
-                    font-size:24px;
-                    font-family: metral;
+                    position: relative;
+                    font-size: 24px;
+                    font-family: metral, Arial;
                     left: 85px;
                     background-image:url("img/old-price-banner.png");
-                    
-                    
-                    
                 }
                 
                 .price-banner-new
@@ -123,16 +129,14 @@
                     display:inline;
                     position:relative;
                     font-weight: bold;
-                    font-family: metral;                    
+                    font-family: metral "Arial";                    
                     font-size: 41px;
                     color: #f25c00;
                     margin-left: 97px;
-                   
-                    
                 }
                 .detalii-banner
                 {
-                    margin-left: 253px;
+                    margin-left: 490px;
                     padding-top: 20px;
                     margin-bottom:20px;
                     
@@ -165,19 +169,17 @@
                 .icon-footer
                 {
                     position:relative;
-                    margin-left:30px;
+                    margin-left:23px;
                     
                 }
                 .title-aparat
                 {
                     position: relative;
-                    font-family:metral;
+                    font-family:metral "Arial" "Lucida Console" ;
                     font-size: 24px;
                     font-weight: bold;
-                    margin-left:150px;
-                    top: 15px;
-                    
-                   
+                    margin-left:0px;
+                    top: 25px;
                 }
                 
 
@@ -204,7 +206,7 @@
                                                             	<tr>
                                                                 	<td width="9" height="14"><img src="img/header_left_arrow.png" width="9" height="14">
                                                              		</td>
-                                                                    <td height="14" align="center" style="padding:0 10px;font-family:'Metral';font-size:20px;font-weight:bold;color:#000000;">
+                                                                    <td height="14" align="center" style="padding:0 10px; font-family: metral, Arial; font-size:20px;font-weight:bold;color:#000000;">
                                                                         14 - 21 ianuarie 2015
                                                                     </td>
                                                                     <td width="9" height="14"><img src="img/header_right_arrow.png" width="9" height="14">
@@ -234,9 +236,9 @@
                             </tbody>   
                         </table>
         
-                        <table width="100%" align="center" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" style=" margin:0 auto display:block ;border: 1px solid #b0b0b0">
+                        <table align="center" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" style=" margin:0 auto ; display:block ;border: 1px solid #b0b0b0">
                              <tbody>   
-                                <tr>
+                                <tr >
                                 	<td>
                                         <a href="#">
                                             <img class="product-image" src="img/img_onerow_prod_generated.jpg" style="text-align: center">
@@ -269,8 +271,8 @@
                                 <td>
                                     <img class="demo-detalii four-in-one" style="margin-left:0px" width="100%" height="100%" src="img/line-1.png">
                                 </td>
-                                <td with="100%">
-                                    <span class= "title-aparat" style="">Aparate foto compacte</span>
+                                <td>
+                                    <h1 class= "title-aparat" style="text-align: center">Aparate foto compacte</h1>
                                 </td>
                                 <td>
                                     <img class="demo-detalii four-in-one" style="margin-left:0px"  width="100%" height="100%" src="img/line-1.png">
@@ -375,7 +377,7 @@
                                     <tr>
                                         <td style="width: 25%; border: 1px solid #d0d0d0; margin: 20px"><img class="" src="img/4on-a-row-new-1.png"/>
                                             <span class="old-price four-in-one">2.297 LEI</span>
-                                            <span class="product-price four-in-one">1.669 LEI</span>
+                                            <span class="product-price four-in-one thre-in-one">1.669 LEI</span>
                                             <span class="demo-description four-in-one">Nikon D3100 body + nikon 18-55MM F/3.5-5.6G VR II AF-S DX 18-55MM F/3.5-5.6G VR</span>
                                             <a href="#">
                                                 <img class="demo-detalii four-in-one" src="img/detalii.png">
@@ -437,9 +439,9 @@
                             </tbody>
                     </table>
         
-                    <table width="100%" align="center" cellspacing="5" cellpadding="0" bgcolor="#FFFFFF" style="margin:0 auto display: block; border: 1px solid #d0d0d0;margin-top:15px; display: block;">
+                    <table class="product-image" width="100%" align="center" cellspacing="5" cellpadding="0" bgcolor="#FFFFFF" style="margin:0 auto display: block; border: 1px solid #d0d0d0;margin-top:15px; display: block; height: auto">
                         <tbody>
-                            <th style="font-family: metral; font-size: 32px; float:left;">F64 Blog</th>
+                            <th style="font-family: metral, Arial ;font-size: 32px; float:left;">F64 Blog</th>
                        
                             <tr style=" border-top: 6px solid #f78f1e; ">
                                 <td style="width: ; border: 0px solid #d0d0d0; margin:0px">
@@ -451,9 +453,9 @@
                                     
                                 </td>
 
-                                <td style="padding:10px">
-                                <span style=" padding: 0px; font-family: metral; font-weight: bold; font-size:17px; border : 0px solid #efefef">Blitzuri si Accesoriii: Nissin vs Metz vs Phottix</span><br/>
-                                <span style=" padding :0px; border : 0px solid #efefef width:0%; font-family: metral; font-weight: medium; font-size:14px;">A fost odata ca alta data, un fotograf in cautarea echipamentului potrivit pentru nunti de Feti Frumosi, portrete de Ilene si alte proiecte pe care urma sa le povesteasca in imagini. Ne-am gandit sa-l ajutam cu impresiile noastre, cand va socoti cum sa imblanzeasca umbrele din aventurile sale. Sa vedem asadar la ce ne putem astepta de la urmatoarele blituri, care ar putea sa-i faca cu ochiul fotografului nostru Phottix Odin TTL.</span>
+                                <td style="padding:10px" class="">
+                                <span style=" padding: 0px; font-family: metral, Arial ; font-weight: bold; font-size:17px; border : 0px solid #efefef">Blitzuriii si Accesoriii: Nissin vs Metz vs Phottix</span><br/>
+                                <span style=" padding :0px; border : 0px solid #efefef width:0%; font-family: metral, Arial ; font-weight: medium; font-size:14px;">A fost odata ca alta data, un fotograf in cautarea echipamentului potrivit pentru nunti de Feti Frumosi, portrete de Ilene si alte proiecte pe care urma sa le povesteasca in imagini. Ne-am gandit sa-l ajutam cu impresiile noastre, cand va socoti cum sa imblanzeasca umbrele din aventurile sale. Sa vedem asadar la ce ne putem astepta de la urmatoarele blituri, care ar putea sa-i faca cu ochiul fotografului nostru Phottix Odin TTL.</span>
                                 <span><a href="#"><Img src="img/buton-citeste.png" style="margin-left:170px; margin-top: 10px"></a></span>
                                 </td>
                             </tr>
@@ -464,11 +466,11 @@
                         <tbody>
                                 <tr style="background-image: url(img/footer-1.png)">
                                     
-                                        <td>
-                                            <a href="#">
-                                                <img class="icon-footer" style=" width: ;border: none;" src="img/icon-fb.png">
-                                            </a>
-                                        </td>
+                                    <td>
+                                        <a href="#">
+                                            <img class="icon-footer" style=" width: ;border: none;" src="img/icon-fb.png">
+                                        </a>
+                                    </td>
                                     
                                      <td>
                                          <a href="#">
@@ -476,29 +478,29 @@
                                             </a>
                                         </td>
                                     <td>
-                                            <a href="#">
-                                                <img class="icon-footer" style=" width:; border: none;" src="img/icon-tw.png">
-                                            </a>
-                                        </td>
+                                        <a href="#">
+                                            <img class="icon-footer" style=" width:; border: none;" src="img/icon-tw.png">
+                                        </a>
+                                    </td>
                                      <td>
-                                            <a href="#">
-                                                <img class="icon-footer" style=" width:; border: none;" src="img/icon-pi.png">
-                                            </a>
-                                        </td>
+                                        <a href="#">
+                                            <img class="icon-footer" style=" width:; border: none;" src="img/icon-pi.png">
+                                        </a>
+                                    </td>
                                     <td>
-                                            <a href="#">
-                                                <img class="icon-footer" style=" width: ; border: none;" src="img/icon-ins.png">
-                                            </a>
-                                        </td>
+                                        <a href="#">
+                                            <img class="icon-footer" style=" width: ; border: none;" src="img/icon-ins.png">
+                                        </a>
+                                    </td>
                                      <td>
-                                            <a href="#">
-                                                <img class="icon-footer" style=" width: ; border: none;" src="img/icon-vi.png">
-                                            </a>
-                                        </td>
+                                        <a href="#">
+                                            <img class="icon-footer" style=" width: ; border: none;" src="img/icon-vi.png">
+                                        </a>
+                                    </td>
                                 </tr>
                             </tbody>
                      </table>
-                     <table width="100%" align="center" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" style="margin:0 auto display: block; width: 100%; border: 1px solid #d0d0d0;">   
+                     <table width="100%" align="center" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" style="margin:0 auto display: block; border: 1px solid #d0d0d0;">   
                            <tbody>
                              <tr style="background-image: url(img/footer-2.png)">
                               
@@ -508,8 +510,8 @@
                                 
                                     
                                 <td>
-                                    <span class="footer-info" style="font-family: metral; margin-top:35; margin-bottom:20; margin-right:80px;"><b>Telefon</b> : +4 021.270.00.50</span>
-                                    <span class="footer-info" style="font-family: metral; margin-left: 190px;margin-bottom:10px;"><b>Adresa:</b> Bd. Unirii, nr.45, sector 3, Bucuresti</span>
+                                    <span class="product-image footer-info" style="font-family: metral, Arial; margin-top: 35px; margin-bottom:20; margin-right: 40px;"><b>Telefon</b> : +4 021.270.00.50</span>
+                                    <span class="footer-info" style="font-family: metral, Arial; margin-left: 190px; margin-bottom:10px;"><b>Adresa:</b> Bd. Unirii, nr.45, sector 3, Bucuresti</span>
                                 </td>
                             </tr>
                         </tbody>
